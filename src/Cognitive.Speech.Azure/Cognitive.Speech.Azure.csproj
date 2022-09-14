@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Polyfill.NET" Version="1.0.12" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+    <PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
+    <PackageReference Include="System.Text.Json" Version="6.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cognitive.Speech\Cognitive.Speech.csproj" />
+  </ItemGroup>
+
+</Project>
