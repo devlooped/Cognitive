@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <ImplicitUsings>true</ImplicitUsings>
+    <UserSecretsId>52546219-74BC-4EC3-BA63-008B02F45D48</UserSecretsId>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <LangVersion>Preview</LangVersion>
+  </PropertyGroup>
+</Project>

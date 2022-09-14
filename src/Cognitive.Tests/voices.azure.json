@@ -1,0 +1,757 @@
+{
+  "values": [
+    {
+      "locale": "en-US",
+      "voiceName": "en-US-JennyNeural",
+      "description": "{\"Version\":\"20211216015304\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-12-16T02:00:50.660Z",
+      "properties": {
+        "publicAvailable": true,
+        "styles": [
+          {
+            "name": "chat"
+          },
+          {
+            "name": "customerservice"
+          },
+          {
+            "name": "assistant"
+          },
+          {
+            "name": "newscast"
+          },
+          {
+            "name": "newscast-formal"
+          },
+          {
+            "name": "newscast-casual"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "it-IT",
+      "voiceName": "it-IT-ElsaNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T15:01:09.760Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "en-GB",
+      "voiceName": "en-GB-LibbyNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T14:07:43.690Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "nb-NO",
+      "voiceName": "nb-NO-IselinNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T15:18:37.883Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "es-ES",
+      "voiceName": "es-ES-ElviraNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T14:37:48.533Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "en-US",
+      "voiceName": "en-US-AriaNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T14:16:19.680Z",
+      "properties": {
+        "publicAvailable": true,
+        "styles": [
+          {
+            "name": "cheerful"
+          },
+          {
+            "name": "empathy"
+          },
+          {
+            "name": "empathetic"
+          },
+          {
+            "name": "chat"
+          },
+          {
+            "name": "newscast"
+          },
+          {
+            "name": "newscast-formal"
+          },
+          {
+            "name": "customerservice"
+          },
+          {
+            "name": "newscast-casual"
+          },
+          {
+            "name": "narration-professional"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ko-KR",
+      "voiceName": "ko-KR-SunHiNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T15:15:48.500Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "en-CA",
+      "voiceName": "en-CA-ClaraNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T14:03:53.820Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "zh-CN",
+      "voiceName": "zh-CN-XiaoxiaoNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T16:41:21.840Z",
+      "properties": {
+        "publicAvailable": true,
+        "styles": [
+          {
+            "name": "lyrical"
+          },
+          {
+            "name": "sentiment"
+          },
+          {
+            "name": "customerservice"
+          },
+          {
+            "name": "newscast"
+          },
+          {
+            "name": "voiceassistant"
+          },
+          {
+            "name": "assistant"
+          },
+          {
+            "name": "chat"
+          },
+          {
+            "name": "gentle"
+          },
+          {
+            "name": "affectionate"
+          },
+          {
+            "name": "disgruntled"
+          },
+          {
+            "name": "fearful"
+          },
+          {
+            "name": "calm"
+          },
+          {
+            "name": "cheerful"
+          },
+          {
+            "name": "angry"
+          },
+          {
+            "name": "serious"
+          },
+          {
+            "name": "sad"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "es-MX",
+      "voiceName": "es-MX-DaliaNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T14:42:30.300Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "en-US",
+      "voiceName": "en-US-GuyNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Male",
+      "createdDateTime": "2021-11-30T14:26:25.100Z",
+      "properties": {
+        "publicAvailable": true,
+        "styles": [
+          {
+            "name": "newscast"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "zh-CN",
+      "voiceName": "zh-CN-YunyangNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Male",
+      "createdDateTime": "2021-11-30T17:20:21.150Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "zh-CN",
+      "voiceName": "zh-CN-XiaoyouNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Male",
+      "createdDateTime": "2021-11-30T17:01:09.043Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "en-GB",
+      "voiceName": "en-GB-MiaNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T14:13:20.937Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "ja-JP",
+      "voiceName": "ja-JP-KeitaNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Male",
+      "createdDateTime": "2021-11-30T15:04:52.910Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "zh-CN",
+      "voiceName": "zh-CN-YunyeNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Male",
+      "createdDateTime": "2021-11-30T17:38:27.210Z",
+      "properties": {
+        "publicAvailable": true,
+        "roles": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "YoungAdultMale"
+          },
+          {
+            "name": "OlderAdultMale"
+          },
+          {
+            "name": "SeniorMale"
+          },
+          {
+            "name": "YoungAdultFemale"
+          },
+          {
+            "name": "OlderAdultFemale"
+          },
+          {
+            "name": "SeniorFemale"
+          },
+          {
+            "name": "Girl"
+          },
+          {
+            "name": "Boy"
+          }
+        ],
+        "styles": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Embarrassed"
+          },
+          {
+            "name": "Calm"
+          },
+          {
+            "name": "Fearful"
+          },
+          {
+            "name": "Cheerful"
+          },
+          {
+            "name": "Disgruntled"
+          },
+          {
+            "name": "Serious"
+          },
+          {
+            "name": "Angry"
+          },
+          {
+            "name": "Sad"
+          },
+          {
+            "name": "Depressed"
+          },
+          {
+            "name": "Affectionate"
+          },
+          {
+            "name": "Gentle"
+          },
+          {
+            "name": "Envy"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "zh-CN",
+      "voiceName": "zh-CN-YunxiNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Male",
+      "createdDateTime": "2021-11-30T17:16:34.303Z",
+      "properties": {
+        "publicAvailable": true,
+        "roles": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Narrator"
+          },
+          {
+            "name": "YoungAdultMale"
+          },
+          {
+            "name": "Boy"
+          }
+        ],
+        "styles": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Narrative"
+          },
+          {
+            "name": "Embarrassed"
+          },
+          {
+            "name": "Calm"
+          },
+          {
+            "name": "Fearful"
+          },
+          {
+            "name": "Cheerful"
+          },
+          {
+            "name": "Disgruntled"
+          },
+          {
+            "name": "Serious"
+          },
+          {
+            "name": "Angry"
+          },
+          {
+            "name": "Sad"
+          },
+          {
+            "name": "Depressed"
+          },
+          {
+            "name": "Chat"
+          },
+          {
+            "name": "Assistant"
+          },
+          {
+            "name": "VoiceAssistant"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "pt-BR",
+      "voiceName": "pt-BR-FranciscaNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T15:30:45.970Z",
+      "properties": {
+        "publicAvailable": true,
+        "styles": [
+          {
+            "name": "calm"
+          },
+          {
+            "name": "cheerful"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "zh-CN",
+      "voiceName": "zh-CN-XiaomoNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T16:08:09.247Z",
+      "properties": {
+        "publicAvailable": true,
+        "roles": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "YoungAdultMale"
+          },
+          {
+            "name": "OlderAdultMale"
+          },
+          {
+            "name": "SeniorMale"
+          },
+          {
+            "name": "YoungAdultFemale"
+          },
+          {
+            "name": "OlderAdultFemale"
+          },
+          {
+            "name": "SeniorFemale"
+          },
+          {
+            "name": "Girl"
+          },
+          {
+            "name": "Boy"
+          }
+        ],
+        "styles": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Embarrassed"
+          },
+          {
+            "name": "Calm"
+          },
+          {
+            "name": "Fearful"
+          },
+          {
+            "name": "Cheerful"
+          },
+          {
+            "name": "Disgruntled"
+          },
+          {
+            "name": "Serious"
+          },
+          {
+            "name": "Angry"
+          },
+          {
+            "name": "Sad"
+          },
+          {
+            "name": "Depressed"
+          },
+          {
+            "name": "Affectionate"
+          },
+          {
+            "name": "Gentle"
+          },
+          {
+            "name": "Envy"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "fr-FR",
+      "voiceName": "fr-FR-DeniseNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T14:56:33.027Z",
+      "properties": {
+        "publicAvailable": true,
+        "styles": [
+          {
+            "name": "Cheerful"
+          },
+          {
+            "name": "Sad"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "zh-CN",
+      "voiceName": "zh-CN-XiaohanNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T15:52:30.673Z",
+      "properties": {
+        "publicAvailable": true,
+        "roles": [
+          {
+            "name": "MaleYoung"
+          },
+          {
+            "name": "Default"
+          }
+        ],
+        "styles": [
+          {
+            "name": "Embarrassed"
+          },
+          {
+            "name": "Calm"
+          },
+          {
+            "name": "Fearful"
+          },
+          {
+            "name": "Cheerful"
+          },
+          {
+            "name": "Disgruntled"
+          },
+          {
+            "name": "Serious"
+          },
+          {
+            "name": "Angry"
+          },
+          {
+            "name": "Sad"
+          },
+          {
+            "name": "Depressed"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "tr-TR",
+      "voiceName": "tr-TR-EmelNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T15:33:45.250Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "ja-JP",
+      "voiceName": "ja-JP-NanamiNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T15:11:49.103Z",
+      "properties": {
+        "publicAvailable": true,
+        "styles": [
+          {
+            "name": "General"
+          },
+          {
+            "name": "chat"
+          },
+          {
+            "name": "customerservice"
+          },
+          {
+            "name": "cheerful"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en-AU",
+      "voiceName": "en-AU-NatashaNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T13:55:56.500Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "zh-CN",
+      "voiceName": "zh-CN-XiaoruiNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T16:20:49.613Z",
+      "properties": {
+        "publicAvailable": true,
+        "roles": [
+          {
+            "name": "MaleYoung"
+          },
+          {
+            "name": "Default"
+          }
+        ],
+        "styles": [
+          {
+            "name": "Embarrassed"
+          },
+          {
+            "name": "Calm"
+          },
+          {
+            "name": "Fearful"
+          },
+          {
+            "name": "Cheerful"
+          },
+          {
+            "name": "Disgruntled"
+          },
+          {
+            "name": "Serious"
+          },
+          {
+            "name": "Angry"
+          },
+          {
+            "name": "Sad"
+          },
+          {
+            "name": "Depressed"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "fr-CA",
+      "voiceName": "fr-CA-SylvieNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T14:47:48.713Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    },
+    {
+      "locale": "zh-CN",
+      "voiceName": "zh-CN-XiaoxuanNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T16:51:08.383Z",
+      "properties": {
+        "publicAvailable": true,
+        "roles": [
+          {
+            "name": "MaleYoung"
+          },
+          {
+            "name": "Default"
+          }
+        ],
+        "styles": [
+          {
+            "name": "Embarrassed"
+          },
+          {
+            "name": "Calm"
+          },
+          {
+            "name": "Fearful"
+          },
+          {
+            "name": "Cheerful"
+          },
+          {
+            "name": "Disgruntled"
+          },
+          {
+            "name": "Serious"
+          },
+          {
+            "name": "Angry"
+          },
+          {
+            "name": "Sad"
+          },
+          {
+            "name": "Depressed"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "de-DE",
+      "voiceName": "de-DE-KatjaNeural",
+      "description": "{\"Version\":\"20211130133950\"}",
+      "gender": "Female",
+      "createdDateTime": "2021-11-30T13:48:39.193Z",
+      "properties": {
+        "publicAvailable": true
+      }
+    }
+  ]
+}

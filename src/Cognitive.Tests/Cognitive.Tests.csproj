@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <NoWarn>CS0436;$(NoWarn)</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ThisAssembly.Project" Version="1.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="Moq" Version="4.18.2" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" PrivateAssets="all" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+    <Using Include="Xunit.Abstractions" />
+    <ProjectProperty Include="UserSecretsId" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cognitive.Speech.Amazon\Cognitive.Speech.Amazon.csproj" />
+    <ProjectReference Include="..\Cognitive.Speech.Azure\Cognitive.Speech.Azure.csproj" />
+    <ProjectReference Include="..\Cognitive.Speech.Google\Cognitive.Speech.Google.csproj" />
+    <ProjectReference Include="..\Cognitive.Speech\Cognitive.Speech.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="@(None);@(Content)" CopyToOutputDirectory="PreserveNewest" />
+    <UpToDateCheckInput Include="@(None);@(Content)" />
+  </ItemGroup>
+
+</Project>
