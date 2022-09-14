@@ -45,6 +45,7 @@ jobs:
         env:
           Amazon__AccessKey: ${{ secrets.AMAZON__ACCESSKEY }}
           Amazon__SecretKey: ${{ secrets.AMAZON__SECRETKEY }}
+          Amazon__Region: ${{ secrets.AMAZON__REGION }}
           Azure__SpeechKey: ${{ secrets.AZURE__SPEECHKEY }}
           Azure__SpeechRegion: ${{ secrets.AZURE__SPEECHREGION }}
           Google__ApiKey: ${{ secrets.GOOGLE__APIKEY }}

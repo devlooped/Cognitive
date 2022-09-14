@@ -1,7 +1,5 @@
 using Cognitive.Speech.Amazon;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Moq;
 
 namespace Cognitive.Tests;
 
@@ -20,7 +18,7 @@ public class AmazonSpeechTests
             .Message);
 
     [Fact]
-    public void CreateEngineThrowsIfNoSpeechRegionConfig()
+    public void CreateEngineThrowsIfNoSecretKeyConfig()
         => Assert.Contains("Amazon:SecretKey",
             Assert.Throws<ArgumentException>("configuration", () =>
                 SpeechEngine.Create(
@@ -28,6 +26,21 @@ public class AmazonSpeechTests
                         .AddInMemoryCollection(new[] { KeyValuePair.Create("Amazon:AccessKey", "foo") })
                     .Build()))
             .Message);
+
+    [Fact]
+    public void CreateEngineThrowsIfNoRegionConfig()
+        => Assert.Contains("Amazon:Region",
+            Assert.Throws<ArgumentException>("configuration", () =>
+                SpeechEngine.Create(
+                    new ConfigurationBuilder()
+                        .AddInMemoryCollection(new[]
+                        {
+                            KeyValuePair.Create("Amazon:AccessKey", "foo"),
+                            KeyValuePair.Create("Amazon:SecretKey", "bar")
+                        })
+                    .Build()))
+            .Message);
+
 
     [Fact]
     public async Task GetVoices()
